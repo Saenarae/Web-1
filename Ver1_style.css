@@ -1,0 +1,50 @@
+ul{
+list-style: none;
+padding-left:20px;
+padding-top: 30px;
+}
+
+a:link {text-decoration: none; color: #333333;}
+a:visited {text-decoration: none; color: #333333;}
+a:active {text-decoration: underline; color: #333333;}
+a:hover {text-decoration: none; color:#8b00ff;}
+a.current { text-decoration: underline; }
+#grid{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+#works{
+  padding-left: 20px;
+}
+#description{
+  margin-top: 50px;
+}
+img{
+  display: block; margin:0 auto;
+  width: 50%;
+}
+.works-container{
+  display: flex;
+  flex-direction:column;
+}
+.works{
+  padding-top: 50px;
+  justify-content: space-around;
+}
+body {
+  color: #333333;
+  line-height:2em;
+  font-size:12px;
+}
+.like{
+  float: left;
+	width: 40px;
+	text-align: center;
+  text-decoration: underline;
+}
+.reblog{
+  float: left;
+	width: 40px;
+	text-align: center;
+  text-decoration: underline;
+}
